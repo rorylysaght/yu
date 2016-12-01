@@ -9,3 +9,4 @@ while s != 'done':
     s = raw_input('enter a number or "done": ')
 
 print ('the sum is ' + str(total))
+#done
