@@ -1,0 +1,8 @@
+#stringstuff.py
+import pprint
+oldstr = "it was bright cold day in april and the clocks were striking thirteen"
+newstr = oldstr.replace(' ','')
+for character in newstr:
+	count.setdefault(character, 0)
+	count[character] = count[character] +1
+pprint.pprint(count)
